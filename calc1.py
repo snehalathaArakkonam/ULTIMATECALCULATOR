@@ -6,7 +6,7 @@ ctk.set_appearance_mode("dark")  # dark / light / system
 ctk.set_default_color_theme("green")  # green, blue, dark-blue
 
 app = ctk.CTk()
-app.title("✨ Ultimatecalc ✨")
+app.title(" Ultimatecalc ")
 app.geometry("600x750")
 
 expression = ""
@@ -142,3 +142,4 @@ for j in range(len(buttons)):
     frame.grid_rowconfigure(j, weight=1)
 
 app.mainloop()
+
